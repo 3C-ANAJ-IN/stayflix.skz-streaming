@@ -1,0 +1,291 @@
+/*ESTRUTURA*/
+
+header video {
+    height: 150px;
+}
+
+body {
+    color: black;
+    background: white;
+    margin: 0 100px 50px 100px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+/*CONFIGS BÁSICAS*/
+
+h1 {
+    font-size: 25px;
+    font-weight: 400;
+    font-weight: bolder;
+    margin: 50px 0 20px 70px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.paragrafo:hover{
+    color: #a7bad4;
+}
+
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.navbar {
+    padding-top: 40px;
+    margin: 30px 0 30px 120px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.navbar a {
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: #a7bad4;
+    transform: scale(1.2);
+}
+
+.line {
+    margin: 0 30px 30px 80px;
+    background-color: white;
+    border-top: solid 2px black;
+    width: 1040px;
+}
+
+.lyrics {
+    margin: 60px 0 0 0;
+    line-height: 25px;
+}
+
+
+
+
+/*FACE IDS - MEET SKZ*/
+
+.meetskz {
+    padding-top: 30px;
+}
+
+
+.faceids {
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    padding-top: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.info {
+    margin: 20px 50px 70px 70px;
+    text-align: justify;
+}
+
+
+
+/*CONHEÇA STRAY KIDS - BLOCO AZUL*/
+
+.blocoazul {
+    background: #b0c7e34e;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 45px;
+}
+
+.textointro {
+    margin: 0 30px 0 50px;
+    text-align: justify;
+}
+
+.videointro img {
+    margin: 20px 70px 50px 30px;
+    height: 200px;
+}
+
+.videointro {
+    padding-top: 40px;
+}
+
+.videointro img:hover {
+    opacity: 1.0;
+    border: 2px solid #3b5590;
+}
+
+.videointro:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+/*CLASSIC MUSIC VIDEOS*/
+
+.classicmusics {
+    display: flex;
+    overflow-y: hidden;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.classicmusics img {
+    opacity: 0.7;
+    height: 100px;
+    margin-left:10px;
+    margin-left: 10px;
+}
+
+
+.classic1:hover img {
+    opacity: 1.0;
+    transform: scale(1.2);
+    border: solid 3px #a1b8d8;
+}
+
+
+
+
+/*HARSH MUSIC VIDEOS*/
+
+.harshmusics {
+    display: flex;
+    overflow-y: hidden;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+
+.harshmusics img {
+    opacity: 0.5;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.harshmusics img:hover {
+    opacity: 1.0;
+    transform: scale(1.2);
+    border: solid 3px #374558
+}
+
+
+
+/*SOFT MUSIC VIDEOS*/
+
+.softmusics {
+    display: flex;
+    overflow-y: hidden;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+
+.softmusics img {
+    opacity: 0.5;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.softmusics img:hover {
+    opacity: 1.0;
+    transform: scale(1.2);
+    border: solid 3px #b0d1ff
+}
+
+
+/*ALBUM TRAILERS*/
+
+.albunslink {
+    display: flex;
+    overflow-y: hidden;
+    gap: 20px;
+    padding-top: 20px;
+
+}
+
+.albunslink img {
+    opacity: 0.7;
+    height: 100px;
+    margin-left:10px;
+}
+
+
+.albuns1:hover img {
+    opacity: 1.0;
+    transform: scale(1.2);
+    border: solid 3px #a7bad4;
+}
+
+
+
+
+
+
+
+/*WEBKIT UNIVERSAL SCROLLBARS*/
+
+*::-webkit-scrollbar-track {
+    background-color: #b0c7e34e;
+    border-radius: 40px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #a7bad4ad;
+    border-radius: 40px;
+    size: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #a7bad4;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*CLASSICS*/
+/*SOFT MUSIC VIDEOS*/
+/*DARK MUSIC VIDEOS*/
+
+
+/*acho legal que o projeto tenha: 
+1. uma barra de pesquisa para músicas
+5. um botão de mudança do tema do site
+
+
+CONCLUIDOS
+3. título animado
+4. uma barra home
+2. um slider de música para música
+*/
